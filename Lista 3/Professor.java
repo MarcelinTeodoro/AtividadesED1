@@ -9,6 +9,22 @@ public class Professor extends Pessoa {
         this.numeroSiape = numeroSiape;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getNumeroSiape() {
+        return numeroSiape;
+    }
+
+    public void setNumeroSiape(String numeroSiape) {
+        this.numeroSiape = numeroSiape;
+    }
+
     
     
     

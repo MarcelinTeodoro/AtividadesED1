@@ -5,6 +5,14 @@ public class TecnicoAdminstrativo extends Pessoa {
         super(nome);
         this.numeroSiape = numeroSiape;
     }
+
+    public String getNumeroSiape() {
+        return numeroSiape;
+    }
+
+    public void setNumeroSiape(String numeroSiape) {
+        this.numeroSiape = numeroSiape;
+    }
     
     
 }
